@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./header.css" />
+        <link rel="stylesheet" type="text/css" href="./form.css" />
+        
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
@@ -24,14 +26,26 @@
                 <li><a href="#">Đăng nhập</a></li>
               </ul>
             </nav>
-            <div class="formDK">
+            <div class="formDk">
                 <form>
-                    <title>Đặt những chỗ ở độc đáo và những điều nên trải nghiệm</title>
-                    <input type="text" id="place" placeholder="Bất cứ đâu"/>
-                    <label for='place'>
-
+                    <h1>Đặt những chỗ ở độc đáo và những điều nên trải nghiệm</h1>
+                    <label for='place' style="width: 100%;">
+                        ĐỊA ĐIỂM
                     </label>
-
+                    <input type="text" id="place" placeholder="Bất cứ đâu" style="width: 85%;"/>
+                    <label for='checkin' style="width: 45%;" >
+                        NHẬN PHÒNG
+                    </label>
+                    <label for='checkout'>    
+                        TRẢ PHÒNG
+                    </label>
+                    <input type="date" id="checkin" style="width: 39%;"/>
+                    <input type="date" id="checkout"/>
+                    <label for='guest' style="width: 100%;">
+                        KHÁCH
+                    </label>
+                    <input type="text" id="guest" style="width: 85%;" />
+                    <button type="button">Tìm kiếm</button>
                 </form>
             </div>
         </div>
