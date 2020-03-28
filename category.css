@@ -1,0 +1,20 @@
+.category {
+    display: flex;
+    max-width: 170px;
+  }
+  
+  .category img {
+    width: 70%;
+    height: 90px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .category .title {
+    padding-top: 35px;
+    padding-left: 10px;
+  }
+
+  .list .content {
+      margin: 250px auto;
+  }
