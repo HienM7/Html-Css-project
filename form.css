@@ -2,32 +2,33 @@
     background-color: #FFF;
     width: 370px;
     padding: 32px 32px 50px 32px;
-    
     border-radius: 4px;
-    box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12);
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 150px;
+    left: 200px;
+    transition: all 0.5s;
 }
 .formDk input, label {
     display: inline-block;
+    margin-bottom: 10px;
 }
-
+form * {
+    color: rgba(72, 72, 72);
+}
 form input {
     display: inline-block;
     padding: 11px;
-    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
 }
 form label {
     font-size: 10px;
 }
 
-form input {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-form {
-}
+
+
+
 form button {
     background-color: #ff5a5f;
     padding: 10px 22px;
@@ -35,4 +36,17 @@ form button {
     border-radius: 2px;
     margin-left: 64%;
     color: #FFF;
+}
+
+@media (max-width: 1600px) {
+    .formDk {
+        top: 100px;
+        left: 100px;
+    }
+}
+@media (max-width: 600px) {
+    .formDk {
+        position: static;
+        width: 100%;
+    }
 }

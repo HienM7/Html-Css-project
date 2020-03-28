@@ -2,11 +2,81 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./header.css" />
+        <link rel="stylesheet" type="text/css" href="./form.css" />
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
         <div class='header'>
-            <div class="navbar"></div>
-            <div class="formDK"></div>
+            <image src='https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg' width="100%" />
+            <nav class="navbar">
+              
+              <image src='https://image.flaticon.com/icons/svg/2111/2111320.svg' class='logo' />
+              <input type="checkbox" id="check">
+              <label for="check" class="checkBtn">
+                <i class="fas fa-caret-down"></i>
+              </label>
+              <ul>
+                <li><a href="#">Tiếng Việt</a></li>
+                <li><a href="#">USD</a></li>
+                <li><a href="#">Cho thuê nhà</a></li>
+                <li><a href="#">Tổ chức trải nghiệm</a></li>
+                <li><a href="#">Trợ giúp</a></li>
+                <li><a href="#">Đăng ký</a></li>
+                <li><a href="#">Đăng nhập</a></li>
+              </ul>
+            </nav>
+            <div class="formDk">
+                <form>
+                    <h1>Đặt những chỗ ở độc đáo và những điều nên trải nghiệm</h1>
+                    <label for='place' style="width: 100%;">
+                        ĐỊA ĐIỂM
+                    </label>
+                    <input type="text" id="place" placeholder="Bất cứ đâu" style="width: 85%;"/>
+                    <label for='checkin' style="width: 45%;" >
+                        NHẬN PHÒNG
+                    </label>
+                    <label for='checkout'>    
+                        TRẢ PHÒNG
+                    </label>
+                    <input type="date" id="checkin" style="width: 39%;"/>
+                    <input type="date" id="checkout"/>
+                    <label for='guest' style="width: 100%;">
+                        KHÁCH
+                    </label>
+                    <input type="text" id="guest" style="width: 85%;" />
+                    <button type="button">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div class="card item1">
+                <img src="https://i.picsum.photos/id/1013/1800/900.jpg" />
+                <div class="title">
+                  Da Nang achive your vision club
+                </div>
+                <div class="subtitle">
+                  Health and wellness
+                </div>
+              </div>
+              <div class="card item2">
+                <img src="https://i.picsum.photos/id/1013/1800/900.jpg" />
+                <div class="title">
+                  Da Nang achive your vision club
+                </div>
+                <div class="subtitle">
+                  Health and wellness
+                </div>
+              </div>
+              <div class="card item3">
+                <img src="https://i.picsum.photos/id/1013/1800/900.jpg" />
+                <div class="title">
+                  Da Nang achive your vision club
+                </div>
+                <div class="subtitle">
+                  Health and wellness
+                </div>
+              </div>
         </div>
     </body>
 </html>
