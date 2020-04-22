@@ -5,7 +5,7 @@ Make with Css, HTML
 * Install Node(prefer use [nvm](https://github.com/nvm-sh/nvm))
 * Install [Live server] (https://github.com/tapio/live-server)
 * Install [Firebase CLI](https://firebase.google.com/docs/cli/)
-##Development
+## Development
 ` $ nvm use # use the node version defined in .nvmrc
   $ live-server # # start dev server
 `
